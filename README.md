@@ -22,8 +22,8 @@ Idle / Scan Mode: When no target is detected, the system performs a slow horizon
 Tracking Mode: When a target is detected, the system adjusts both axes to align with the computed angles.
 
 ## General Control Flow
-Receive target angle input from vision system
-Convert angles to step counts
-Compare with current motor position
-Generate step pulses to reduce error
-Repeat in continuous control loop
+#### Receive target angle input from vision system
+#### Convert angles to step counts
+#### Compare with current motor position
+#### Generate step pulses to reduce error
+#### Repeat in continuous control loop
