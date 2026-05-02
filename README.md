@@ -23,7 +23,11 @@ Tracking Mode: When a target is detected, the system adjusts both axes to align 
 
 ## General Control Flow
 #### Receive target angle input from vision system
-#### Convert angles to step counts
+v
+#### Convert angles to step count
+v
 #### Compare with current motor position
+v
 #### Generate step pulses to reduce error
+v
 #### Repeat in continuous control loop
