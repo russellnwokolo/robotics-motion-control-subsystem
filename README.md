@@ -9,6 +9,7 @@ The system is built around a custom PCB designed to control dual-axis motion usi
 The PCB accepts a high-current 24V input supply (10A+) and distributes power across the system. It includes support for a buck converter module to step down voltage for lower-power components. Regulated outputs are provided to power an external Raspberry Pi as well as an auxiliary DC motor used elsewhere in the system.
 
 Motor control signals (STEP, DIR, ENABLE) are routed from the microcontroller to each driver. The board also exposes configurable microstepping via MS1–MS3 switches, allowing runtime adjustment of motor resolution. A hardware reset button is connected to the driver reset pins for quick system resets.
+<img width="450" height="450" alt="Screenshot 2026-04-21 232403" src="https://github.com/user-attachments/assets/ee993868-6875-4124-bd4b-510ce96196de" /><img width="450" height="450" alt="Screenshot 2026-04-21 232434" src="https://github.com/user-attachments/assets/cb7f37d4-520f-4ca2-b769-2bb443d3df3a" />
 
 ### Firmware Overview
 
