@@ -1,4 +1,4 @@
-# Computer-Automated-Turret
+# Computer-Automated-Turret-System
 This project is a custom PCB and firmware for controlling dual-axis stepper motors for a pan-tilt robotics system project for the Robotics and Advanced Tech Society
 
 ## System Architecture
